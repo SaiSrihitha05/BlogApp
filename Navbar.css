@@ -1,0 +1,72 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #13174b;
+    color: white;
+    padding: 10px;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white; /* Set text color as needed */
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px; 
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 15px; /* Adjust margin as needed */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white; /* Set text color as needed */
+  }
+  .nav-link:active,
+  .nav-link:focus,
+  
+  .nav-link:hover {
+    text-shadow: 0 0 10px #ffffff; /* Set your preferred glowing color and intensity */
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar-nav {
+    display: flex;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
